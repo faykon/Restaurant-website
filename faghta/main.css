@@ -1,0 +1,112 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image:url(Screenshot_1.png) ;
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    height: 500vh;
+   background-color: rgb(247, 242, 235);
+
+}
+nav ul li{
+    display:inline-block;
+
+   text-align:center;
+   font-size: 30px;
+   margin-left: 10px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+    border-style: solid;
+}
+nav ul li a:hover{
+    color: rgb(230, 178, 240);
+}
+.paragrafos_aristera{
+   background-color: rgb(255, 255, 255);
+    width: 75vh;
+    height: 400px;
+    margin-top:540px;
+    font-size: 10px;
+    margin-left:50px;
+  z-index: 1;
+  display: inline-block;
+  padding: 30px;
+}
+.a{
+margin-top: 10px;
+    width: 300px;
+    height: 400px;
+ margin-left:70px;
+position: absolute;
+top:64%;
+z-index: 0;
+border-radius: 10px;
+
+
+}
+.b{
+    margin-top: 10px;
+    width: 300px;
+    height: 400px;
+ margin-left:500px ;
+position: absolute;
+top:64%;
+border-radius: 10px;
+
+}
+@media only screen and (max-width: 600px) {
+.a{width: 230px; height: 400px;position: absolute;top:1000px;margin-left: 0;}
+.b{width: 230px; height: 400px;position: absolute;top:1000px;margin-left:250px ;}
+.paragrafos_aristera{margin-top: 500px; width: 500px; height: 300px;padding-left:0 ; font-size:7px; margin-left: 0;}
+}
+/* aligning images*/
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other *//*mia grammh me 3 sthles */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+
+  }
+  .column img{
+    border-radius: 10px;
+    transition: transform .2s;/*zooming images*/
+  }
+  .column img:hover{
+    width: 100%;
+    /*zooming image CSS transform that increases the scale of an element by 1.5 times its original size*/
+    -ms-transform: scale(1.5); /*prefix is for Microsoft Edge*/
+  -webkit-transform: scale(1.5); /*prefix is specifically for web browsers that use the WebKit rendering engine, such as Safari and Chrome*/
+  transform: scale(1.5); 
+  }
+
+  /*row 2 */
+  /* aligning images*/
+.row-2 {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other *//*mia grammh me 3 sthles */
+  .column {
+    margin-top: 10px;
+    flex: 33.33%;
+    padding: 5px;
+
+  }
+  .column img{
+    border-radius: 10px;
+    transition: transform .2s;/*zooming images*/
+  }
+  .column img:hover{
+    width: 100%;
+    /*zooming image CSS transform that increases the scale of an element by 1.5 times its original size*/
+    -ms-transform: scale(1.5); /*prefix is for Microsoft Edge*/
+  -webkit-transform: scale(1.5); /*prefix is specifically for web browsers that use the WebKit rendering engine, such as Safari and Chrome*/
+  transform: scale(1.5); 
+  }
